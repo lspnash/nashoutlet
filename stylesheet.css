@@ -16,3 +16,13 @@ h1 {
 .gallery img {
   height: 300px;
 }
+
+.testimonial {
+  font-family: 'Raleway', sans-serif;
+  color: #ffffff
+}
+
+.contactform {
+  font-family: 'Raleway', sans-serif;
+  color: #ffffff
+}
