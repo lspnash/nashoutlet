@@ -7,3 +7,12 @@ h1 {
   font-family: 'Raleway', sans-serif;
   color: #ffffff
 }
+
+.paulquote {
+  font-family: 'Raleway', sans-serif;
+  color: #ffffff
+}
+
+.gallery img {
+  height: 300px;
+}
