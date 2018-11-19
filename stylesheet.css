@@ -26,3 +26,14 @@ h1 {
   font-family: 'Raleway', sans-serif;
   color: #ffffff
 }
+
+ul { /* targets navbar, for some reason .navbar div would not work */
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  color: #ffffff
+}
+
+li { /* targets list elements */
+  display: inline;
+}
