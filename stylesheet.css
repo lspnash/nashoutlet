@@ -26,3 +26,36 @@ h1 {
   font-family: 'Raleway', sans-serif;
   color: #ffffff
 }
+
+ /* targets navbar, for some reason .navbar div would not work */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #212121;
+}
+
+/* sets list elements to left of page */
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* change the link color to lighter grey on hover */
+li a:hover {
+    background-color: #333;
+}
+
+/* active page accentuated in navbar */
+.active {
+  color: #999999
+}
