@@ -1,30 +1,45 @@
 h1 {
   font-family: 'Montserrat', sans-serif;
-  color: #ffffff
+  color: #ffffff;
+  padding-top: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 1%;
+  text-align: center;
+
 }
 
+}
 .maincontent {
   font-family: 'Raleway', sans-serif;
-  color: #ffffff
+  color: #ffffff;
 }
 
 .paulquote {
   font-family: 'Raleway', sans-serif;
-  color: #ffffff
+  color: #ffffff;
+}
+
+.gallery {
+  padding: 10%;
+  display: flex;
+  flex-direction: row;
+  flex: 50%;
 }
 
 .gallery img {
   height: 300px;
+  padding: 1%;
 }
 
 .testimonial {
   font-family: 'Raleway', sans-serif;
-  color: #ffffff
+  color: #ffffff;
 }
 
 .contactform {
   font-family: 'Raleway', sans-serif;
-  color: #ffffff
+  color: #ffffff;
 }
 
  /* targets navbar, for some reason .navbar div would not work */
@@ -57,15 +72,5 @@ li a:hover {
 
 /* active page accentuated in navbar */
 .active {
-  color: #999999
-}
-
-.enquirebutton {
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-    text-decoration: none;
-    border: 3px;
-    border-style: solid;
-    border-color: white;
-    padding: 0.5em;
+  color: #999999;
 }
