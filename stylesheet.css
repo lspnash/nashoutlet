@@ -59,3 +59,13 @@ li a:hover {
 .active {
   color: #999999
 }
+
+.enquirebutton {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    border: 3px;
+    border-style: solid;
+    border-color: white;
+    padding: 0.5em;
+}
