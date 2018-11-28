@@ -1,0 +1,100 @@
+ /* targets navbar, for some reason .navbar div would not work */
+ ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2C2F33;
+  }
+  
+  h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 1%;
+    text-align: center;
+  } 
+  
+  .intro h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 1%;
+    text-align: center;
+  }
+  
+  .maincontent {
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+  }
+  
+  .paulquote {
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+  }
+  
+  .gallery {
+    padding: 10%;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .testimonial {
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+    font-weight: bold;
+  }
+  
+  .contactform {
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+  }
+  
+  /* sets list elements to left of page */
+  li {
+      float: left;
+  }
+  
+  li a {
+      display: block;
+      color: white;
+      font-family: 'Montserrat', sans-serif;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+  }
+  
+  /* change the link color to lighter grey on hover */
+  li a:hover {
+      background-color: #7289DA;
+      color: #ffffff
+  }
+  
+  /* active page accentuated in navbar */
+  .active {
+    color: #99AAB5;
+  }
+  
+  footer h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    padding-top: 5%;
+  }
+  
+  footer h2 {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    opacity: 0.7;
+    text-align: center;
+  }
